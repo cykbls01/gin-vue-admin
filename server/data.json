@@ -1,0 +1,26 @@
+{
+  "queries": [
+    {
+      "datasource": {
+        "type": "prometheus",
+        "uid": "prometheus"
+      },
+      "expr": "sum(100 * (redis_memory_used_bytes{instance=~\"10\\\\.42\\\\.0\\\\.60:9121\"}  / redis_memory_max_bytes{instance=~\"10\\\\.42\\\\.0\\\\.60:9121\"}))",
+      "format": "time_series",
+      "intervalFactor": 2,
+      "legendFormat": "",
+      "metric": "",
+      "refId": "A",
+      "step": 2,
+      "exemplar": false,
+      "requestId": "11A",
+      "utcOffsetSec": 28800,
+      "interval": "",
+      "datasourceId": 1,
+      "intervalMs": 30000,
+      "maxDataPoints": 100
+    }
+  ],
+  "from": "1705366946440",
+  "to": "1705367006440"
+}

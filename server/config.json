@@ -1,0 +1,22 @@
+{
+  "header": {
+    "Accept-Encoding": "gzip, deflate",
+    "Accept-Language": "zh-CN,zh;q=0.9",
+    "Content-Length": "814",
+    "Cookie": "sidebar_collapsed=false; _gitlab_session=b287640ff38428d659e06642500cba95; argocd.token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJhcmdvY2QiLCJzdWIiOiJhZG1pbjpsb2dpbiIsImV4cCI6MTY5NTc3OTgxNiwibmJmIjoxNjk1NjkzNDE2LCJpYXQiOjE2OTU2OTM0MTYsImp0aSI6IjRiYjFkOTMzLWRlYmItNDFiNS1hNjU5LWNhNmFjYmQ1MWZiYSJ9.AENcatcX-k-NcGTQPBB8gU9aBD-ar7fuwBHtvBiv-K8; PL=rancher; _ga=GA1.1.430057647.1700036120; _ga_QSNFXCJD8M=GS1.1.1700036120.1.1.1700036914.60.0.0; rem-username=admin; NG_TRANSLATE_LANG_KEY=%22en%22; grafana_session=5435021835059814a847b9a91e5c127d; grafana_session_expiry=1705368719",
+    "Host": "43.128.79.149:31323",
+    "Origin": "http://43.128.79.149:31323",
+    "Proxy-Connection": "keep-alive",
+    "Referer": "http://43.128.79.149:31323/d/afed9a80-f39c-4ae2-8b9b-7cac7111f330/redis-dashboard-for-prometheus-redis-exporter-1-x?orgId=1",
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "accept": "application/json, text/plain, */*",
+    "content-type": "application/json",
+    "x-dashboard-uid": "afed9a80-f39c-4ae2-8b9b-7cac7111f330",
+    "x-datasource-uid": "prometheus",
+    "x-grafana-org-id": "1",
+    "x-panel-id": "7",
+    "x-plugin-id": "prometheus"
+  },
+  "type": "POST",
+  "url": "http://43.128.79.149:31323/api/ds/query?ds_type=prometheus&requestId=Q102"
+}
