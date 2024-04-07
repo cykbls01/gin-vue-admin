@@ -12,7 +12,7 @@ autocode:
     server-api: /api/v1/%s
     server-plug: /plugin/%s
     server-initialize: /initialize
-    root: /Users/cykbls01/Workplace/gin-vue-admin
+    root: /usr/share/nginx
     web-table: /view
     web: /web/src
     server-service: /service/%s
@@ -79,8 +79,8 @@ excel:
 helm:
     path: /usr/share/nginx/project/
     repo: /usr/share/nginx/project/
-    grafana: http://43.128.79.149:31323/dashboards
-    tutorial: http://localhost:8080/api/component/download?x-token=
+    grafana: http://10.30.32.1:31789/dashboards
+    tutorial: http://10.30.32.1:8086/api/component/download?x-token=
 hua-wei-obs:
     path: you-path
     bucket: you-bucket
@@ -88,7 +88,7 @@ hua-wei-obs:
     access-key: you-access-key
     secret-key: you-secret-key
 jwt:
-    signing-key: 8e222bae-d33f-4179-89a1-5f36613e20c1
+    signing-key: 1015c733-b0a6-400b-9a15-e7926f3910f5
     expires-time: 7d
     buffer-time: 1d
     issuer: qmPlus
@@ -125,12 +125,12 @@ mssql:
     log-zap: false
 mysql:
     prefix: ""
-    port: "3306"
+    port: "33306"
     config: charset=utf8mb4&parseTime=True&loc=Local
     db-name: gva
     username: root
-    password: cyk971104
-    path: 127.0.0.1
+    password: "123456"
+    path: 192.168.153.161
     engine: ""
     log-mode: error
     max-idle-conns: 10
